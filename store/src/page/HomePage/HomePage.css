@@ -1,0 +1,160 @@
+body,
+html {
+  background-color: #faf9f6e4;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.home-page {
+  background-color: #faf9f6e4;
+  padding: 20px;
+}
+
+.nav-home {
+  background-color: #fbf8fc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.filter-dropdown {
+  display: flex;
+  align-items: start;
+  color: #452a5c;
+}
+
+.logo-image {
+  width: 100px;
+  height: 100px;
+}
+
+.dropdown-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, auto));
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.dropdown-toggle-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #452a5c;
+  border: none;
+  color: #fbf8fc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-toggle-nav:hover,
+.dropdown-toggle-nav:focus,
+.dropdown-toggle-nav:active {
+  background-color: #6d5880;
+  color: #fbf8fc;
+  outline: none;
+  box-shadow: none;
+  transition: background-color 0.3s;
+}
+.dropdown-nav:last-child {
+  margin-right: 0;
+}
+
+.body-home {
+  background-color: #fbf8fc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toy-container {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toy-container:hover {
+  background-color: #beb3c7;
+}
+
+.toy-horizontal {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toy-grid {
+  display: grid;
+  grid-template-columns: 0.5sfr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  align-items: center;
+  justify-items: center;
+  padding: 8px;
+}
+
+.toy-name {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  font-size: 20px;
+  font-weight: bold;
+  color: #452a5c;
+}
+
+.toy-type {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: start;
+  font-style: italic;
+  color: #452a5c;
+}
+
+.toy-price {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+  color: #452a5c;
+}
+
+.toy-stock {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: end;
+  color: #452a5c;
+}
+
+.toy-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #fbf8fc;
+  background-color: #452a5c;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #6d5880;
+}
+
+.me-2 {
+  margin-right: 8px;
+}
+
+.delete-icon {
+  color: #452a5c;
+}

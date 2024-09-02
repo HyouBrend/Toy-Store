@@ -1,0 +1,63 @@
+.toy-form-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.toy-form-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fbf8fc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  text-decoration: none;
+  color: #452a5c;
+  border: none;
+  background: none;
+}
+
+.back-button:hover {
+  color: #6d5880;
+}
+
+h2 {
+  color: #452a5c;
+  margin: 0;
+  text-align: center;
+}
+
+.form-control,
+.dropdown-toggle {
+  border-color: #452a5c;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #452a5c;
+  border-color: #452a5c;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #6d5880;
+  border-color: #6d5880;
+}
